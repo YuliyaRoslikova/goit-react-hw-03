@@ -1,0 +1,29 @@
+.container {
+    width: 300px;
+}
+
+.form {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.formGroup {
+    display: flex;
+    flex-direction: column;
+}
+
+.addContact {
+    width: 100px;
+    margin: 0 auto;
+}
+
+.error {
+    font-size: 14px;
+    color: red;
+}
